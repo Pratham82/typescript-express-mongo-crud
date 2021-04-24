@@ -1,5 +1,5 @@
 import User from '../models/Users'
-import { Request, Response, ErrorRequestHandler } from 'express'
+import { Request, Response } from 'express'
 import IUser from '../interfaces/users'
 
 //@POST
