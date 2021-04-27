@@ -18,7 +18,7 @@ const createNewUser = async (req: Request, res: Response) => {
 
     res.json({
       status: 'Successful',
-      message: 'New user created',
+      message: 'New user created !!',
       data: {
         newUser,
       },
