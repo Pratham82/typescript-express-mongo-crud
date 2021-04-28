@@ -9,9 +9,9 @@ const createNewUser = async (req: Request, res: Response) => {
     const { name, age, designation } = req.body
 
     const user: IUser = new User({
-      name,
-      age,
-      designation,
+      name:name,
+      age:age,
+      designation:designation,
     })
 
     const newUser: IUser = await user.save()
