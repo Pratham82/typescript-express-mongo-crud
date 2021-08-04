@@ -36,6 +36,11 @@ npm run start
 npm run dev
 ```
 
+### Run application with docker
+```
+docker-compose up
+```
+
 &nbsp;
 
 ## **2. API Documentation**
@@ -110,4 +115,24 @@ This route will update the user with the provided ID and given Request body in J
 
 ```
 localhost:3000/api/users/update/:id
+```
+
+### Notes
+
+Fixing `npm run build` errors
+
+
+```
+sudo rm -rf node_modules/ package-lock.json
+```
+
+Build project again
+
+```
+npm run build
+```
+
+Change ownership of data folder
+```bash
+sudo chown -R $USER data
 ```
