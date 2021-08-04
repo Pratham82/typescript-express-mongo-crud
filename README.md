@@ -36,6 +36,11 @@ npm run start
 npm run dev
 ```
 
+### Run application with docker
+```
+docker-compose up
+```
+
 &nbsp;
 
 ## **2. API Documentation**
